@@ -1,0 +1,24 @@
+# ai-resume-generator
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>AI Resume Generator</h2>
+        <form id="resumeForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="jobTitle" placeholder="Job Title" required>
+            <textarea id="experience" placeholder="Work Experience"></textarea>
+            <textarea id="skills" placeholder="Skills (comma separated)"></textarea>
+            <button type="submit">Generate Resume</button>
+        </form>
+        <div id="resumeOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
